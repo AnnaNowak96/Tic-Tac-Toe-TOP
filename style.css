@@ -5,4 +5,47 @@
 
 body {
     background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    padding:10px 0 50px;
+    font-size: 40px;
+    text-shadow: 2px 5px yellow;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+    min-width: 300px;
+    border: none;
+    padding-top: 50px;
+}
+
+.cell {
+    background-color: rgb(214, 214, 204);
+    border: 2px solid black;
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+}
+
+#gamepanel {
+    display: flex;
+    gap: 150px;
+    font-size: 20px;
+}
+
+#gamepanel button {
+    font-size: 15px;
+    padding: 4px 10px;
+    border-radius: 6px;
+}
+
+#gamepanel button:active {
+    background-color: yellow;
 }
